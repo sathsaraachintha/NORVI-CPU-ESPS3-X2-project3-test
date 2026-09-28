@@ -1,12 +1,35 @@
 {
-  "userId": "u_fc77dfc82af6666a",
-  "projectId": "NORVI-CPU-ESPS3-X2-project3-test",
+  "schemaVersion": 2,
   "name": "NORVI-CPU-ESPS3-X2-project3-test",
-  "board": {
-    "fqbn": "esp32:esp32:esp32"
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {
+      "CDCOnBoot": "cdc",
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "DFUOnBoot": "default",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashMode": "qio",
+      "FlashSize": "16M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "MSCOnBoot": "default",
+      "PartitionScheme": "default",
+      "PSRAM": "enabled",
+      "UploadMode": "default",
+      "UploadSpeed": "115200",
+      "USBMode": "hwcdc",
+      "ZigbeeMode": "default"
+    }
   },
-  "selections": null,
-  "serial": null,
+  "serial": {
+    "baudRate": 115200
+  },
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-09-28T07:16:13.689Z",
-  "updatedAt": "2026-09-28T07:16:13.689Z"
+  "updatedAt": "2026-09-28T07:20:35.908Z"
 }
