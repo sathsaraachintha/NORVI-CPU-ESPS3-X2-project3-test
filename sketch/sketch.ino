@@ -231,8 +231,8 @@ void loop() {
     uint8_t result = node.readInputRegisters(1, 2); 
     
     if (result == node.ku8MBSuccess) {
-      float temperature = node.getResponseBuffer(0) / 10.0;
-      float humidity = node.getResponseBuffer(1) / 10.0;
+      float temperature = node.getResponseBuffer(0) / 100.0;
+      float humidity = node.getResponseBuffer(1) / 100.0;
       
       tft.setTextColor(TFT_YELLOW, TFT_BLACK);
       tft.print(" Temp: ");
