@@ -2,8 +2,63 @@
   "version": 2,
   "enforcementLevel": "strict",
   "libraries": {
-    "manager": [],
-    "managerResolved": [],
+    "manager": [
+      {
+        "name": "Ethernet",
+        "version": "2.0.2",
+        "scope": "shared"
+      },
+      {
+        "name": "ModbusMaster",
+        "version": "2.0.1",
+        "scope": "shared"
+      },
+      {
+        "name": "PCA9536D",
+        "version": "2.0.1",
+        "scope": "shared"
+      },
+      {
+        "name": "RTClib",
+        "version": "2.1.4",
+        "scope": "shared"
+      },
+      {
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17",
+        "scope": "shared"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "Adafruit BusIO",
+        "version": "1.17.4"
+      },
+      {
+        "name": "Adafruit GFX Library",
+        "version": "1.12.6"
+      },
+      {
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17"
+      },
+      {
+        "name": "Ethernet",
+        "version": "2.0.2"
+      },
+      {
+        "name": "ModbusMaster",
+        "version": "2.0.1"
+      },
+      {
+        "name": "PCA9536D",
+        "version": "2.0.1"
+      },
+      {
+        "name": "RTClib",
+        "version": "2.1.4"
+      }
+    ],
     "git": []
   }
 }
