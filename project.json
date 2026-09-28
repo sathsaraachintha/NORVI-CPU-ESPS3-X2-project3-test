@@ -1,0 +1,12 @@
+{
+  "userId": "u_fc77dfc82af6666a",
+  "projectId": "NORVI-CPU-ESPS3-X2-project3-test",
+  "name": "NORVI-CPU-ESPS3-X2-project3-test",
+  "board": {
+    "fqbn": "esp32:esp32:esp32"
+  },
+  "selections": null,
+  "serial": null,
+  "createdAt": "2026-09-28T07:16:13.689Z",
+  "updatedAt": "2026-09-28T07:16:13.689Z"
+}
