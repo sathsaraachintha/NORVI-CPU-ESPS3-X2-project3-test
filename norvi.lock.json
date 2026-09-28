@@ -27,6 +27,11 @@
         "name": "Adafruit SSD1306",
         "version": "2.5.17",
         "scope": "shared"
+      },
+      {
+        "name": "LovyanGFX",
+        "version": "1.2.30",
+        "scope": "shared"
       }
     ],
     "managerResolved": [
@@ -45,6 +50,10 @@
       {
         "name": "Ethernet",
         "version": "2.0.2"
+      },
+      {
+        "name": "LovyanGFX",
+        "version": "1.2.30"
       },
       {
         "name": "ModbusMaster",
