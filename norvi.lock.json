@@ -14,11 +14,6 @@
         "scope": "shared"
       },
       {
-        "name": "PCA9536D",
-        "version": "2.0.1",
-        "scope": "shared"
-      },
-      {
         "name": "RTClib",
         "version": "2.1.4",
         "scope": "shared"
@@ -32,6 +27,11 @@
         "name": "LovyanGFX",
         "version": "1.2.30",
         "scope": "shared"
+      },
+      {
+        "name": "PCA9536D",
+        "version": "2.0.1",
+        "scope": "shared"
       }
     ],
     "managerResolved": [
@@ -41,7 +41,7 @@
       },
       {
         "name": "Adafruit GFX Library",
-        "version": "1.12.6"
+        "version": "1.13.0"
       },
       {
         "name": "Adafruit SSD1306",
@@ -68,6 +68,16 @@
         "version": "2.1.4"
       }
     ],
-    "git": []
+    "git": [
+      {
+        "name": "PCA9539-master",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "89bd31031d55013365495e0e631f2c4dcf75003d",
+        "contentSha256": "429508b88a0a147c6e1bff23433d5a2ef52551220656109432508a3e688cb243",
+        "subpath": "libraries/PCA9539-master",
+        "scope": "shared",
+        "format": "legacy"
+      }
+    ]
   }
 }
